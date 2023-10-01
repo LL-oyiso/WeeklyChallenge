@@ -1,6 +1,6 @@
-import React , {useState, useEfect} from 'react'
+import React , {useState} from 'react'
 
-import {FaBars,FaFacebookF}  from 'react-icons/fa'
+import {FaBars}  from 'react-icons/fa'
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
@@ -9,17 +9,17 @@ const NavBar = () => {
         setNav(!nav)
     }
   return (
-    <div className='w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-900 '>
-         <h1 className='p-2'>Port</h1>
+    <div className='w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-black-900 '>
+         <h1 className='p-2 font-bold text-2xl'>Port</h1>
       <ul className='hidden sm:flex px-4'>
        
-        <li>
+        <li className='text-xl '>
           <a href ="/">Home</a>
         </li>
-        <li>
+        <li className='text-xl '>
         <a href ="/">About us</a>
         </li>
-        <li>
+        <li className='text-xl '>
         <a href ="/">Updates</a>
         </li>
       </ul>

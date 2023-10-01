@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap');
+
 :root{
   --primary-dark:#fcf300;
   --primary-light:#ffe97f;
@@ -17,7 +21,7 @@
   }
 
   button{
-    @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
+    @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] text-white
   }
 
   h2{
