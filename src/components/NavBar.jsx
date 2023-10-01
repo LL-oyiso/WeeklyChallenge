@@ -10,14 +10,14 @@ const NavBar = () => {
     }
   return (
     <div className='w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-black-900 '>
-         <h1 className='p-2 font-bold text-2xl'>Port</h1>
+         <h1 className='p-4 font-bold text-2xl'>Port</h1>
       <ul className='hidden sm:flex px-4'>
        
         <li className='text-xl '>
           <a href ="/">Home</a>
         </li>
         <li className='text-xl '>
-        <a href ="/">About us</a>
+        <a href ="#about">About us</a>
         </li>
         <li className='text-xl '>
         <a href ="/">Updates</a>
@@ -35,7 +35,7 @@ const NavBar = () => {
           <a href ="/">Home</a>
         </li>
         <li className='text-2xl py-8'>
-        <a href ="#about-us">About us</a>
+        <a href ="#about">About us</a>
         </li>
         <li className='text-2xl py-8'>
         <a href ="#update">Updates</a>
