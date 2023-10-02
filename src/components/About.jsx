@@ -50,12 +50,12 @@ const About = () => {
 </div>
       <div>
        <div class ='grid md:grid-cols-2 h-[400px]'>
-       <div>
+       <div className='ml-10'>
        <h1 className=' mt-10 ml-10 grid-cols-2 text-4xl font-bold text-gray-800'>Real time updates:</h1> <p> of departures and arrival times so you can better plan your trips</p>
        </div>
 
         <div>
-        <img src ="https://transitapp.com/img/5.0/home/trip-plan.gif"  alt ='' className='  w-full md:h-full  p-2 max-h-[135px] h-[250px] object-contain'  />
+        <img src ="https://transitapp.com/img/5.0/home/trip-plan.gif"  alt ='' className='  w-full md:h-full  p-2 max-h-[250px] h-[250px] object-contain'  />
         </div>
        
        </div>
