@@ -5,7 +5,7 @@ const About = () => {
   return (
 
     <>
-    <div id ="about" className='max-w-[1140px] h-[930px] m-auto w-full p-4 py-16'>
+    <div id ="about" className='max-w-[1140px] h-[870px] m-auto w-full p-4 py-16'>
       <h1 className='text-left  font-bold text-4xl  text-gray-800 mb-10'>Reimaging public commute</h1>
      
       <div className='grid md:grid-cols-2 h-[780px]   '>
@@ -44,18 +44,18 @@ const About = () => {
 
       
 
-       <div>
-       <h1 className=' mt-10 grid-cols-2 text-4xl font-bold text-gray-800'>Real time updates:</h1> <p> of departures and arrival times so you can better plan your trips</p>
+       <div className='max-w-[1140px] h-[300px] w-full'>
+       <h1 className=' mt-10 grid-cols-2 text-4xl font-bold text-gray-800'>Real time updates:</h1> <p className='mt-5'> Effortlessly craft your perfect itinerary with GO's comprehensive trip planning service.<br></br> Discover the most optimal routes and transportation modes thoughtfully organized for <br></br>your convenience. Stay on top of your travel game with the latest real-time data<br></br></p>
        </div>
 </div>
       <div>
-       <div class ='grid md:grid-cols-2 h-[400px]'>
+       <div class =' max-w-[1140px] grid md:grid-cols-2 h-[450px] m-auto w-full'>
        <div className='ml-10'>
-       <h1 className=' mt-10 ml-10 grid-cols-2 text-4xl font-bold text-gray-800'>Real time updates:</h1> <p> of departures and arrival times so you can better plan your trips</p>
+       <h1 className=' mt-10  grid-cols-2 text-4xl font-bold text-gray-800'>Plan your trip effortlessly</h1><p className='mt-5'>With the aid of Ports live routes feature, explore your frequently traveled routes presented in an intuitive layout that's designed to enhance your travel experience. Plus, you'll benefit from real-time data integration, ensuring the highest level of accuracy and convenience throughout your journey.</p>
        </div>
 
         <div>
-        <img src ="https://transitapp.com/img/5.0/home/trip-plan.gif"  alt ='' className='  w-full md:h-full  p-2 max-h-[250px] h-[250px] object-contain'  />
+        <img src ="https://transitapp.com/img/5.0/home/trip-plan.gif"  alt ='' className='mt-5  w-full md:h-full  p-2 max-h-[250px] h-[250px] object-contain'  />
         </div>
        
        </div>
