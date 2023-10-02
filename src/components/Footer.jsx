@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <div className=' flex bg-gray-900 h-[400px] w-full py-8 m-auto border-t-4'>
+    <div className=' flex justify-around bg-black h-[350px] w-full py-8 m-auto border-t-4'>
       <div>
       <ul className='text-white p-6'>
         <h2>Port</h2>
