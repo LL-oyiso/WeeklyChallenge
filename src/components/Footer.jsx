@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=' bg-gray-900 h-[400px] w-full py-8 m-auto border-t-4'>
+    <>
+    <div className=' flex bg-gray-900 h-[400px] w-full py-8 m-auto border-t-4'>
+      <div>
       <ul className='text-white p-6'>
         <h2>Port</h2>
         <h1>Visit help center</h1>
@@ -11,7 +13,23 @@ const Footer = () => {
         <li>Routes</li>
         <li>Safety</li>
       </ul>
+      </div>
+      
+    
+    <div className=''>
+    <ul className='text-white p-6'>
+        <h2>Partners</h2>
+        <h1>Visit help center</h1>
+        <li>About us</li>
+        <li>Services</li>
+        <li>Routes</li>
+        <li>Safety</li>
+      </ul>
     </div>
+    </div>
+   
+    </>
+    
   )
 }
 
