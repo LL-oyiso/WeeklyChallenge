@@ -7,7 +7,7 @@ const Hero = () => {
      
       <div className='max-w-[1140px] m-auto '>
       <div className='absolute top-[35%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4'>
-          <h1 className='font-bold text-5xl'>Go whereever, however</h1>
+          <h1 className='font-bold text-5xl'>Go wherever, however</h1>
           <h2 className='font-bold text-4xl py-4 '>With Port</h2>
           <button className='mt-4 rounded-full w-40 font-medium gradient-button'>Get the app</button>
           <p className='mt-6 font-bold'>
