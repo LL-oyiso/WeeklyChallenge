@@ -1,5 +1,5 @@
 import React from 'react'
-import go from '../go.gif'
+
 
 const About = () => {
   return (
@@ -37,7 +37,7 @@ const About = () => {
 
     </div>
 
-    <div className='grid md:grid-cols-2 h-[480px] bg-gray-100 m-auto w-full '>
+    <div id="features" className='grid md:grid-cols-2 h-[480px] bg-gray-100 m-auto w-full '>
       <div >
         <img src ="https://transitapp.com/img/5.0/home/go.gif" alt =""  className=' mt-20  w-full md:h-full  p-2 max-h-[135px] h-[250px] object-contain'/>
        </div>
